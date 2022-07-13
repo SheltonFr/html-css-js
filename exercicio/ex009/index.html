@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas ordenadas</h2>
+    <p>Sao aquelas em que queremos enumerar(com numeros ou letras) os elementos inseridos. <br></p>
+    <p>para tal, usamos a seguinte estrutura <br></p>
+
+        <pre>
+&lt;o&gt;
+    &lt;li&gt;
+    &lt;/li&gt;
+&lt;/o&gt;
+
+        </pre>
+        <p>
+            Onde dentro de cada teg &lt;li&gt; inserimos os elementos. <br>
+            podemos usar &lt;li*7&gt; para criar o numero especificado de tags automaticamente
+        </p>
+    
+    <ol type="1">
+        <li>Acordar</li>
+        <li>Tomar cafe</li>
+        <li>Escovar os dentes</li>
+        <li>Comer</li>
+        <li>Estudar</li>
+        <li>Programar</li>
+    </ol>
+    <h2>Listas nao ordenadas</h2>
+    <p>Aquelas que nao precisa numerar</p>
+    <p>os parametros type do ul sao: disc, square, circle</p>
+    <ul type="square">
+        <li>Pao</li>
+        <li>Manteiga</li>
+        <li>Feijao</li>
+        <li>Repolho</li>
+        <li>Sal</li>
+    </ul>
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Cliper</li>
+            <li>Visual basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5">
+            <li>Php</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Ktlin</li>
+        </ol>
+    </ol>
+    <h2>Meus jogos favoritos</h2>
+    <ol>
+        <li>NES</li>
+        <ul type="disc">
+            <li>Mario</li>
+            <li>Ninja</li>
+        </ul>
+        <li>SNES</li>
+        <ul type="disc">
+            <li>Mario</li>
+            <li>Homg</li>
+        </ul>
+        <li>PlayStation</li>
+        <ul type="disc">
+            <li>Pro Evolutio Soccer</li>
+            <ul>
+                <li>PES 12</li>
+                <li>PES 17</li>
+            </ul>
+            <li>Need for speed</li>
+            <ul>
+                <li>Most Wanted</li>
+                <li>Underground</li>
+            </ul>
+        </ul>
+    </ol>
+    <h2>Lista de definições</h2>
+    <dl><!--Definitio List-->
+        <dt>HTML</dt><!--O termo-->
+        <dd>Linguagem de marcação para criação de conteudo de um site</dd><!--A definicao do termo-->
+        <dt>CSS</dt>
+        <dd>Linguagem de marcacao para o design de um site</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programacao para interacao em sites</dd>
+    </dl>
+</body>
+</html>

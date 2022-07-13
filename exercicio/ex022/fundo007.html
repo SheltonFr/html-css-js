@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento vertical</title>
+    <style>
+        #container{
+            position: relative;
+            /*O position relative é o padrao de todos box level, e é geralmente usado em boxs que contem outros box, ou seja "em containers"*/
+            height: 95.52vh;
+            padding: 10px;
+            background-color: purple;
+            background-image: url("imagens/target001.png");
+            background-size: 100% 100%;
+        }
+
+        #conteudo{
+            position: absolute;
+            /*o positiona absolute, permite o uso das proriedades left, top, etc...e é geralmente utilizado em boxs que estao dentro de outros boxs, ou seja, em box de "conteudo"*/
+            background-image: url("imagens/target001.png");
+            background-size: 100% 100%;
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+
+            /* as configurações abaixo, fixam o centro da div de conteudo, na dic container*/
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+</body>
+</html>
