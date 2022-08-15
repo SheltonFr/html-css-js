@@ -1,0 +1,7 @@
+@charset "UTF-8";
+/* Estilos para telas no modo paisagem (largura maior do que a altura) */
+
+body {
+    background-image: url(../img/cev-landscape.jpg);
+    background-position: left bottom; /*canto inferior esquerdo*/
+}
