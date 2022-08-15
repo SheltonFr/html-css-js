@@ -1,26 +1,31 @@
 @charset "UTF-8";
-   /* Declaracoes gerais */
-   * {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+/* Declaracoes gerais */
+
+@media all {
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    html,
+    body {
+        width: 100vw;
+        height: 100vh;
+        background-color: #233eff;
+        background-size: contain;
+        /*para caber a imagem inteira*/
+        background-repeat: no-repeat;
+    }
+
+    h1 {
+        color: white;
+        text-shadow: 2px 2px 0 #1828a8;
+        padding: 10px;
+    }
 }
 
-html,
-body {
-    width: 100vw;
-    height: 100vh;
-    background-color: #233eff;
-    background-size: contain;
-    /*para caber a imagem inteira*/
-    background-repeat: no-repeat;
-}
 
-h1 {
-    color: white;
-    text-shadow: 2px 2px 0 #1828a8;
-    padding: 10px;
-}
 
 /* Declaracoes retrato */
 @media screen and (orientation: portrait) {
